@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="สำนักจัดการทรัพยากรป่าไม้ที่ 7 (ขอนแก่น)">
+  <title>สำนักจัดการทรัพยากรป่าไม้ที่ 7 (ขอนแก่น)</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark forest-nav sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">สจป.7 (ขอนแก่น)</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">หน้าแรก</a></li>
+        <li class="nav-item"><a class="nav-link" href="#news">ข่าวประชาสัมพันธ์</a></li>
+        <li class="nav-item"><a class="nav-link" href="#documents">เอกสาร</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">ติดต่อเรา</a></li>
+        <li class="nav-item ms-lg-2"><a class="btn btn-light btn-sm px-3" href="login.html">เข้าสู่ระบบ</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="hero-section">
+  <div class="container py-5">
+    <div class="row align-items-center min-vh-50">
+      <div class="col-lg-8">
+        <span class="badge text-bg-success mb-3">กรมป่าไม้</span>
+        <h1 class="display-5 fw-bold">สำนักจัดการทรัพยากรป่าไม้ที่ 7 (ขอนแก่น)</h1>
+        <p class="lead mt-3">ศูนย์กลางข้อมูล ข่าวสาร เอกสาร และช่องทางการติดต่อหน่วยงานด้านทรัพยากรป่าไม้</p>
+        <a href="#news" class="btn btn-success btn-lg me-2">ดูข่าวประชาสัมพันธ์</a>
+        <a href="#documents" class="btn btn-outline-dark btn-lg">เอกสารดาวน์โหลด</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section id="news" class="py-5">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <div><h2 class="fw-bold mb-1">ข่าวประชาสัมพันธ์</h2><p class="text-secondary mb-0">ข้อมูลล่าสุดจากหน่วยงาน</p></div>
+    </div>
+    <div id="newsList" class="row g-4">
+      <div class="col-12"><div class="alert alert-light border">กำลังโหลดข้อมูล...</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="documents" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="fw-bold mb-1">เอกสารและแบบฟอร์ม</h2>
+    <p class="text-secondary mb-4">รวมเอกสารสำหรับประชาชนและบุคลากร</p>
+    <div id="documentList" class="row g-3">
+      <div class="col-12"><div class="alert alert-light border">กำลังโหลดข้อมูล...</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="py-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-7">
+        <h2 class="fw-bold">ติดต่อหน่วยงาน</h2>
+        <p>สำนักจัดการทรัพยากรป่าไม้ที่ 7 (ขอนแก่น)</p>
+        <p class="mb-1">อีเมล: khonkaensp@forest.go.th</p>
+        <p>โทรศัพท์: 043-330-381</p>
+      </div>
+      <div class="col-lg-5">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body">
+            <h5>ระบบที่เกี่ยวข้อง</h5>
+            <div class="list-group list-group-flush">
+              <a class="list-group-item list-group-item-action" href="https://www.forest.go.th/" target="_blank">กรมป่าไม้</a>
+              <a class="list-group-item list-group-item-action" href="https://www.forest.go.th/khonkaen7/" target="_blank">สจป.7 (ขอนแก่น)</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="py-4 bg-dark text-white">
+  <div class="container small d-flex justify-content-between flex-wrap gap-2">
+    <span>© สำนักจัดการทรัพยากรป่าไม้ที่ 7 (ขอนแก่น)</span><span>RFD7 Digital Service</span>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/api.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
